@@ -1,233 +1,41 @@
 <!Doctype html>
 <html lang="en">
 <head>
-	<title>Argiope Designs</title>
+	
   	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  	<title>Argiope Designs</title>
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  	<script src="https://use.fontawsome.com/release/v5.8.1/js/all.js"></script>
+  	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Great+Vibes" rel="stylesheet">
+  	<link href="style.css" rel="stylesheet">
+  		 
   </head>
- 	 
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
- <style>
-    .jumbotron{
-        height: 500px;
-        background-image: url("spiderweb.jpg");
-        background-size: cover;
-    }
-    h1 {
-      font-family: "pictorial signature";
-      font-size: 20vw;
-      color: white;
-      text-shadow: 3px 2px #00804d;
-    }
-    h6{
-    	font-family: "pictorial signature";
-    	color:white;
-    	font-size: 5vw;
-    	text-shadow: 3px 2px #00804d;
-    }
-    
-    .btn {
-        border-radius: 25px;
-  background:linear-gradient(to top right, #006666 0%, #ccff99 100%); /* Green background */
-  border: 1px solid green; /* Green border */
-  color: white; /* color of the text */
-  padding: 10px 24px; /* Some padding */
-  cursor: pointer; /* Pointer/hand icon */
-  float: left; /* Float the buttons side by side */
-  width: 33.3%;
-  font-size: 24px;
-   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-
-.btn:not(:last-child) {
-  border-right: none; /* Prevent double borders */
-}
-
-/* Clear floats (clearfix hack) */
-.btn:after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Add a background color on hover */
-.btn:hover {
-  background-color: #3e8e41;
-}
-.list-horizontal li {
-	display:inline-block;
-}
-.list-horizontal li:before {
-	content: '\00a0\2022\00a0\00a0';
-	color:#999;
-	color:rgba(0,0,0,0.5);
-	font-size:11px;
-}
-.list-horizontal li:first-child:before {
-	content: '';
-}
-
-first-footer {
-	padding: 10px;
-	text-align: justify;
-	color: red;
-}
-
-/* Style the footer */
-footer {
-  background: linear-gradient(to bottom, #339933 0%, #ccff66 100%);
-  padding: 50px;
-  text-align: center;
-  color: white;
-}
-.carousel {
-	margin: 50px auto;
-}
-.carousel .item {
-	color: #80bdff;/* color of the title of the client*/
-	overflow: hidden;
-    min-height: 120px;
-	font-size: 13px;
-}
-.carousel .media {
-	position: relative;
-	padding: 0 0 0 20px;
-	margin-left: 20px;
-}
-.carousel .media img {
-	width: 75px;
-	height: 75px;
-	display: block;
-	border-radius: 50%;
-	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-  border: 2px solid #fff;
-}
-.carousel .testimonial {
-    color: white;    /* color of thr text inside the comments*/
-    position: relative;    
-    background: #006666;/* color of the comments boc*/
-	padding: 15px;
-	margin: 0 0 20px 20px;
-}
-.carousel .testimonial::before, .carousel .testimonial::after {
-	content: "";
-	display: inline-block;
-	position: absolute;
-	left: 0;
-	bottom: -20px;
-}
-.carousel .testimonial::before {
-    width: 20px;
-    height: 20px;
-	background: #9b9b9b;
-	box-shadow: inset 12px 0 13px rgba(0,0,0,0.5);
-}
-.carousel .testimonial::after {
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-bottom-color: #fff;
-    border-left-color: #fff;
-}
-.carousel .item .row > div:first-child .testimonial {
-	margin: 0 20px 20px 0;
-}
-.carousel .item .row > div:first-child .media {
-	margin-left: 0;
-}
-.carousel .testimonial p {
-	text-indent: 40px;
-    line-height: 21px;
-	margin: 0;
-}
-.carousel .testimonial p::before {
-	content: '\94';
-    color: #fff;
-    font-weight: bold;
-    font-size: 68px;
-    line-height: 70px;
-    position: absolute;
-    left: -25px;
-    top: 0;
-}
-.carousel .overview {
-	padding: 3px 0 0 15px;
-}
-.carousel .overview .details {
-	padding: 5px 0 8px;
-}
-.carousel .overview b {
-	text-transform: uppercase;
-	color: #ff5555;
-}
-.carousel .carousel-control {
-	width: 30px;
-	height: 30px;
-    background: #666;
-    text-shadow: none;
-	top: 4px;
-}
-.carousel-control i {
-	font-size: 16px;
-}
-.carousel-control.left {
-	left: auto;
-	right: 40px;
-}
-.carousel-control.right {
-	left: auto;
-}
-.carousel-indicators {
-	bottom: -80px;
-}
-.carousel-indicators li, .carousel-indicators li.active {
-	width: 18px;
-    height: 18px;
-	border-radius: 0;
-	margin: 1px 4px;
-}
-.carousel-indicators li {	
-    background: #e2e2e2;
-    border: 4px solid #fff;
-}
-.carousel-indicators li.active {
-	color: #fff;
-    background: #ff5555;    
-    border: 5px double;    
-}
-.star-rating li {
-	padding: 0 2px;
-}
-.star-rating i {
-	font-size: 14px;
-	color: #ffdc12;
-}
-    
-</style>
-
 <body>
-    <!-- jumbotron section -->
-<div class="jumbotron text-center" style="margin-bottom:0">
-      <h1>Argiope Designs</h1><br> 
-      <p><h6>Website Development</h6></p>
-     
-</div>
+	<div id="slides" class="carousel-slide" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="spiderweb.jpg">
+				<div class="carousel-caption">
+					<h1>Argiope Designs</h1>
+					<h6>Website Development</h6>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- jumbotron section
+<div class="container-fluid">
+  <div class="jumbotron text-center">
+    <div class="col-lg-7 col-xl-8 pt-4">
+    	<h4>Argiope Designs</h4>
+    </div>
+  </div>
+</div> -->
     <!-- cards section -->
 <!-- Collapse buttons -->
-<script>
-// Get the button, and when the user clicks on it, execute myFunction
-document.getElementById("myBtn").onclick = function() {myFunction()};
 
-/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
-function myFunction() {
-  document.getElementById("collapse").classList.toggle("show");
-}
-</script>
 <p>
   <a class="btn"  data-toggle="collapse"data-trigger="focus"href="#multiCollapseExample1" role="button" aria-expanded="false"  aria-controls="multiCollapseExample1">ABOUT</a>
   <button class="btn" id="myBtn" type="button" data-toggle="collapse" data-trigger="focus"data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">SERVICES</button>
@@ -326,128 +134,44 @@ To set up a consultation connect with  us.</p></h5>
         <p button type="button" class="btn-outline-primary btn-lg btn-block" class="text-center"></span> <a href="mailto: 138fhernandez@gmail.com?Subject=Contact%20Form" target="top">Send Us An Email</a></p>
     </div>
   </div>
-</div>  
+</div> 
+</div>
 
 <!-- comments -->
-<div class="container">
-	<div class="row">
-		<div class="col-sm-12">			
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-				<h2>Customer <b>Testimonials</b></h2>
-				<!-- Carousel indicators -->
-				<ol class="carousel-indicators">
-					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					<li data-target="#myCarousel" data-slide-to="1"></li>
-					<li data-target="#myCarousel" data-slide-to="2"></li>
-				</ol>   
-				<!-- Wrapper for carousel items -->
-				<div class="carousel-inner">
-					<div class="item carousel-item active">
-						<div class="row">
-							<div class="col-sm-6">
-								<div class="testimonial">
-									<p>"Francisco was so fun to work with, he understood my companies needs after many attempts of using 
-									a drag and drop web host myself, i was happy to hvae someone knowledgeable and encouraging."</p>
-								</div>
-								<div class="media">
-									<div class="media-left d-flex mr-3">
-										<img src="run.gif" alt="">										
-									</div>
-									<div class="media-body">
-										<div class="overview">
-											<div class="name"><b>R.N.R</b></div>
-											<div class="details">Designer</div>
-											<div class="star-rating">
-												<ul class="list-inline">
-													<li class="list-inline-item"><i class="fa fa-star"></i></li>
-													<li class="list-inline-item"><i class="fa fa-star"></i></li>
-													<li class="list-inline-item"><i class="fa fa-star"></i></li>
-													<li class="list-inline-item"><i class="fa fa-star"></i></li>
-													<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-												</ul>
-											</div>
-										</div>										
-									</div>
-								</div>
-							</div>
-							
-					<div class="item carousel-item">
-						<div class="row">
-							<div class="col-sm-6">
-								<div class="testimonial">
-									<p>"Francisco is a great person to work with!!"</p>
-								</div>
-								<div class="media">
-									<div class="media-left d-flex mr-3">
-										<img src="kitty.jpg" alt="">										
-									</div>
-									<div class="media-body">
-										<div class="overview">
-											<div class="name"><b>Michael Holzez</b></div>
-											<div class="details">Web Developer / A-teamz</div>											
-											<div class="star-rating">
-												<ul class="list-inline">
-													<li class="list-inline-item"><i class="fa fa-star"></i></li>
-													<li class="list-inline-item"><i class="fa fa-star"></i></li>
-													<li class="list-inline-item"><i class="fa fa-star"></i></li>
-													<li class="list-inline-item"><i class="fa fa-star"></i></li>
-													<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-												</ul>
-											</div>
-										</div>										
-									</div>
-								</div>
-							</div>
-							
-							<div class="col-sm-6">
-								<div class="testimonial">
-									<p>"Francisco so fun to work with, he understood my companies needs after many attempts of using 
-									a drag and drop web host myself, i was happy to hvae someone knowledgeable and encouraging."</p>
-								</div>
-								<div class="media">
-									<div class="media-left d-flex mr-3">
-										<img src="football.png" alt="">										
-									</div>
-									<div class="media-body">
-										<div class="overview">
-											<div class="name"><b>R.N.R</b></div>
-											<div class="details">Designer</div>
-											<div class="star-rating">
-												<ul class="list-inline">
-													<li class="list-inline-item"><i class="fa fa-star"></i></li>
-													<li class="list-inline-item"><i class="fa fa-star"></i></li>
-													<li class="list-inline-item"><i class="fa fa-star"></i></li>
-													<li class="list-inline-item"><i class="fa fa-star"></i></li>
-													<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-												</ul>
-											</div>
-										</div>										
-									</div> 
-								</div>
-							</div>
-						</div>			
-					</div>
+<section class="testimonials">
+	<div class="container">
+		<h1>Testimonials</h1>
+		<div class="row">
+			<div class="col-md-4 text-center">
+				<div class="profile">
+					<img src="grass-4.png" class="user">
+					<blockquote>I'm so happy with the creative problem solving and attentiveness
+					you offe, always a pleasure.</blockquote>
+					<h3>IJ Warder</h3><span>Lodi Ca</span>
 				</div>
-				<!-- Carousel controls -->
-				<a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
-					<i class="fa fa-chevron-left"></i>
-				</a>
-				<a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
-					<i class="fa fa-chevron-right"></i>
-				</a>
+			</div>
+				<div class="col-md-4 text-center">
+				<div class="profile">
+					<img src="grass-4.png" class="user">
+					<blockquote>Thank you for your patience with all of my electrical desires
+					and demands. You are really fun to work with.</blockquote>
+					<h3>P.Rivera</h3><span>Gig Harbor Wa</span>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<div>
-	</div>
-	</div>
+</section>
+
+
+
+
+
+
 <footer>
    <small>
             Copyright &copy; created by Francisco
         </small>
 </footer>
-</div>
 
   </body>
 </html>

@@ -1,0 +1,195 @@
+
+
+    .carousel-inner img{
+        width: 100%;
+    }
+    
+   .carousel-caption{
+       position: absolute;
+       transform: translateY(-50%);
+       top: 47%;
+   }
+   
+   .carousel-caption h1 {
+       font-family: 'Great Vibes', cursive;
+       font-size: 8rem;
+       text-shadow: .1rem .1rem  1rem black;
+       padding-bottom: 1rem;
+       font-weight: 500;
+   }
+   
+    .carousel-caption h6 {
+       font-family: 'Great Vibes', cursive;
+       font-size: 3rem;
+       text-shadow: .1rem .1rem  6rem black;
+   }
+   /*
+    lead{
+    	font-family: "pictorial signature";
+    	color:white;
+    	font-size: 5vw;
+    	text-shadow: 3px 2px #00804d;
+    }*/
+    
+    .btn {
+        border-radius: 25px;
+  background:linear-gradient(to top right, #006666 0%, #ccff99 100%); /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* color of the text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 33.3%;
+  font-size: 24px;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn:hover {
+  background-color: #3e8e41;
+}
+.list-horizontal li {
+	display:inline-block;
+}
+.list-horizontal li:before {
+	content: '\00a0\2022\00a0\00a0';
+	color:#999;
+	color:rgba(0,0,0,0.5);
+	font-size:11px;
+}
+.list-horizontal li:first-child:before {
+	content: '';
+}
+
+.testimonials h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #ff9800;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.testimonials h1::after{
+    content:"";
+    background: #ff9800;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin:20px auto 5px;
+}
+
+.testimonials .row{
+    margin-top: 30px;
+}
+
+.col-md-4 {
+    margin: 40px auto;
+}
+
+.profile{
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+}
+
+.profile img{
+    top: -60px;
+    position: absolute;
+    left: calc(50% - 50%);
+    border: 10px solid white;
+}
+
+.user{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.profile h3{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #ff9800;
+    
+}
+
+span {
+    font-size: 12px;
+    color:#333;
+}
+
+blockquote{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+blockquote::before{
+    content: '\93';
+    font-size: 50px;
+    position: relative;
+    color: #ff9800;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+
+blockquote::after{
+    content: '\94';
+    font-size: 50px;
+    position: relative;
+    color: #ff9800;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+}
+
+.profile:hover{
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+first-footer {
+	padding: 10px;
+	text-align: justify;
+	color: red;
+}
+
+/* Style the footer */
+footer {
+  background: linear-gradient(to bottom, #339933 0%, #ccff66 100%);
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+    
+    /* Media Querries*/
+    
+    @media (max-width: 991px){
+        
+    }
+    
+    @media (max-width: 767px){
+        
+    }
+    
+    @media (max-width: 575px){
+        
+    }
